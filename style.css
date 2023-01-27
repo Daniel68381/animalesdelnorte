@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Distressed&family=Work+Sans:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Distressed&family=Work+Sans:ital,wght@1,200&display=swap');
+    
+*{
+    background: rgb(48,46,46);
+background: linear-gradient(328deg, rgba(48,46,46,1) 29%, rgba(0,0,0,1) 100%, rgba(78,74,74,0.5158438375350141) 100%);
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    text-align: center;
+    margin: 0;
+}
+
+.contenedortitulo h1{
+    font-family: 'Luckiest Guy', cursive;
+
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.logotipo{ 
+    width: 35px;
+    height: 35px;
+}
+
+nav, ul, li  {
+    
+    text-decoration: none;
+    
+    display: flex;
+
+    
+}
+
+nav a{   
+    color: #ddd;
+    padding: 5px 3px 0px 13px;
+    font-style: none;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #140d0d;
+}
+nav a:hover {    
+    color: #91C60C;
+    transform: scale(0.7);
+}
+    
+
+.portada{
+    width: 100%;
+    height: 86vh;
+
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Rubik Distressed', cursive;
+font-family: 'Work Sans', sans-serif;
+font-size: 78px;
+color: #CCCCCC;
+text-align: center;
+margin: 20px 5px ;
+}
+
+.conteinerparrafo{
+    display:flex;
+    flex-direction: row;
+    
+   
+}
+p{
+    font-size: 20px;
+    width: 88%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    color: #CCCCCC;
+}
+.videoconteiner{
+    width: 100%;
+    text-align: center;
+    
+
+}
+.videoanimales{
+    width: 70%;
+    height: 500px;
+    
+
+}
+.contenedor__redes{
+    display: flex;
+    justify-content: baseline;
+    margin-left: 40%;
+}
+.contenido__redes__1{
+    padding: 10px;
+}
+.contenido__redes__2{
+    padding: 10px;
+}
+.imgredes_1 {
+    width: 70px;
+    height: 58px;
+    border-radius: 100%;
+}
+.imgredes_2 {
+    
+    width: 116px;
+    height: 78px;
+    border-radius: 100%;
+}
+footer{
+    width: 110%;
+}
+/* discografia */
+.portadadisco{
+width: 100%;
+height: 73vh;
+}
+.contenedor-discos{
+    display: flex;
+    width: 100%;
+    
+
+}
+.contenido-discos{
+width: 30%;
+
+}
+.adisco{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    padding: 83px;
+}
+.parradisco{
+    font-size: 20px;
+    width: 88%;
+    text-align: center;
+    padding: 10px;
+    border-right: 8px outset #CCCCCC;
+    border-bottom: none;
+    border-top: none;
+    margin: 5px;
+    color: #CCCCCC;
+}
+/* galeria */
+.contenidos-discos__G{
+    width: 100%;
+    display: flex;
+    
+}
+.imgbaleria{
+width: 400px;
+margin: 20px;
+height: 400px;
+
+}
+
