@@ -1,169 +1,500 @@
+body {
+    background: linear-gradient(black, white, white, black)
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Distressed&family=Work+Sans:ital,wght@1,200&display=swap');
+.logonav {
+    width: 40px;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Distressed&family=Work+Sans:ital,wght@1,200&display=swap');
-    
-*{
-    background: rgb(48,46,46);
-background: linear-gradient(328deg, rgba(48,46,46,1) 29%, rgba(0,0,0,1) 100%, rgba(78,74,74,0.5158438375350141) 100%);
-    margin: 0;
-    padding: 0;
+.barranav:hover {
+    background-color: rgb(180, 130, 37);
+    text-decoration: underline;
+    transition: 0.75px;
 
 }
 
-header{
+.contenedortitulo {
     text-align: center;
-    margin: 0;
 }
 
-.contenedortitulo h1{
+h1 {
+    font-family: 'Creepster', cursive;
     font-family: 'Luckiest Guy', cursive;
-
-}
-
-nav{
-    display: flex;
-    justify-content:space-between;
-    
-}
-
-.logotipo{ 
-    width: 35px;
-    height: 35px;
-}
-
-nav, ul, li  {
-    
-    text-decoration: none;
-    
-    display: flex;
-
-    
-}
-
-nav a{   
-    color: #ddd;
-    padding: 5px 3px 0px 13px;
-    font-style: none;
-    text-decoration: none;
-    font-size: 23px;
-    font-weight: bold;
-    background-color: #140d0d;
-}
-nav a:hover {    
-    color: #91C60C;
-    transform: scale(0.7);
-}
-    
-
-.portada{
-    width: 100%;
-    height: 86vh;
-
-}
-h1{
     font-family: 'Permanent Marker', cursive;
-font-family: 'Rubik Distressed', cursive;
-font-family: 'Work Sans', sans-serif;
-font-size: 78px;
-color: #CCCCCC;
-text-align: center;
-margin: 20px 5px ;
 }
 
-.conteinerparrafo{
-    display:flex;
-    flex-direction: row;
-    
-   
-}
-p{
-    font-size: 20px;
-    width: 88%;
-    text-align: center;
-    padding: 10px;
-    margin: 5px;
-    color: #CCCCCC;
-}
-.videoconteiner{
-    width: 100%;
-    text-align: center;
-    
+@media only screen and (min-width: 1080px) {
+    .menunavlogo {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .tituloanimal {
+        margin-top: 40px;
+    }
 }
-.videoanimales{
+
+@media only screen and (min-width: 1080px) {
+    .parrafo {
+        display: flex;
+        margin-top: 18px;
+    }
+
+    .parrafoentradas {
+        width: 80%;
+        padding: 0px;
+    }
+
+    .parrafoentradas2 {
+        width: 80%;
+        padding: 0px;
+    }
+
+    .h3parrafo {
+        margin-bottom: 18px;
+        text-decoration: underline;
+    }
+
+    .videoconteiner {
+        height: 500px;
+    }
+
+    .acordeon {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+
+.conteinerparrafo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.conteinerparrafo p {
+    padding: 5%;
+    padding-top: 2px;
+}
+
+.conteinerparrafo h3 {
+    font-family: 'Creepster', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.videconteiner {
+    text-align: center;
+}
+
+.videoanimales {
     width: 70%;
-    height: 500px;
-    
+    height: 90%;
+}
 
-}
-.contenedor__redes{
-    display: flex;
-    justify-content: baseline;
-    margin-left: 40%;
-}
-.contenido__redes__1{
-    padding: 10px;
-}
-.contenido__redes__2{
-    padding: 10px;
-}
-.imgredes_1 {
-    width: 70px;
-    height: 58px;
-    border-radius: 100%;
-}
-.imgredes_2 {
-    
-    width: 116px;
-    height: 78px;
-    border-radius: 100%;
-}
-footer{
-    width: 110%;
-}
-/* discografia */
-.portadadisco{
-width: 100%;
-height: 73vh;
-}
-.contenedor-discos{
-    display: flex;
-    width: 100%;
-    
 
-}
-.contenido-discos{
-width: 30%;
-
-}
-.adisco{
-    width: 250px;
-    height: 250px;
-    border-radius: 100%;
-    padding: 83px;
-}
-.parradisco{
-    font-size: 20px;
-    width: 88%;
+footer {
+    background-color: black;
+    color: wheat;
     text-align: center;
-    padding: 10px;
-    border-right: 8px outset #CCCCCC;
-    border-bottom: none;
-    border-top: none;
-    margin: 5px;
-    color: #CCCCCC;
 }
-/* galeria */
-.contenidos-discos__G{
+
+footer p {
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+.portadadisco {
     width: 100%;
+}
+
+.contenedor-titulo {
+    text-align: center;
+}
+
+.contenido-discos {
+    text-align: center;
+
+}
+
+.adisco {
+    width: 80%;
+    text-align: center;
+    height: 80%;
+}
+
+.contenido-discos__g {
+    text-align: center;
+}
+
+.imggaleria {
+    width: 80%;
+    padding-bottom: 10px;
+    height: 200px;
+}
+
+.imggaleria1 {
+    display: none;
+}
+
+@media only screen and (min-width: 1080px) {
+    .contenedor-discos {
+        display: flex;
+        gap: 8px;
+        width: 100%;
+        margin-left: 10px;
+
+    }
+
+    .contenedor-discos__1 {
+        display: flex;
+        gap: 8px;
+        width: 100%;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+
+    .contenido-discos__g {
+        display: flex;
+        gap: 8px;
+        width: 100%;
+        margin-left: 10px;
+        overflow: hidden;
+
+    }
+
+    .imggaleria {
+        width: 428px;
+        display: flex;
+        height: 428px;
+    }
+
+    .imggaleria:hover {
+        transform: scale(1.2);
+    }
+
+    .imggaleria1 {
+        width: 428px;
+        display: flex;
+        height: 428px;
+    }
+
+    .imggaleria1:hover {
+        transform: scale(1.2);
+    }
+}
+
+
+
+.nosotros {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.biografia {
+    text-align: left;
+    margin-left: 8px;
+    text-align: center;
+
+
+}
+
+.subtitulo {
+    text-decoration: underline;
+    font-family: 'Creepster', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.biografia p {
+    width: 60%;
+    margin-left: 48px;
+}
+
+.nosotrosfoto {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    width: 60%;
+    margin-left: 50px;
+}
+
+.mail {
+    width: 100%;
+}
+
+.mensaje {
+    width: 100%;
+
+}
+
+.boton {
+    text-align: center;
+}
+
+.enviar {
+    background-color: black;
+    border-radius: 10%;
+    color: wheat;
+    margin-bottom: 10px;
+
+}
+
+.seguinos {
+    text-align: center;
+}
+
+.contenidoredes {
     display: flex;
-    
+    justify-content: space-around;
 }
-.imgbaleria{
-width: 400px;
-margin: 20px;
-height: 400px;
+
+.logoinstagram {
+    width: 38px;
 
 }
 
+.logospoty {
+    width: 38px;
+
+}
+
+.logoface {
+    width: 38px;
+
+}
+
+.contactop {
+    padding: 5px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Creepster', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.seguinos h6 {
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Creepster', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+
+
+
+/* DISCOGRAFIA */
+.portadadisco8 {
+    width: 100%;
+}
+
+.contenedor-discos8 {
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 1080px) {
+    .portadadisco8 {
+        width: 100%;
+        height: 500px;
+    }
+
+    .discografia8 {
+        text-decoration: underline;
+        font-family: 'Creepster', cursive;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 80px;
+
+    }
+
+    .contenedor-discos8 {
+        display: flex;
+    }
+
+
+
+    .adisco {
+        border-radius: 100%;
+        width: 250px;
+    }
+
+    .adisco:hover {
+        transform: scale(0.72);
+    }
+
+    .parradisco8 {
+        color: azure;
+        margin: 10px;
+
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+}
+
+/* NOSOTROS */
+@media only screen and (min-width: 1080px) {
+    .portadadisco9 {
+        width: 100%;
+        height: 500px;
+    }
+
+    .nosotros9 {
+        font-size: 80px;
+    }
+
+    .subtitulo9 {
+        font-size: 35px;
+        padding-right: 80%;
+        text-decoration: underline;
+        font-family: 'Creepster', cursive;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Permanent Marker', cursive;
+
+    }
+
+    .parrafo9 {
+        padding-left: 30px;
+    }
+
+    .nosotrosfoto9 {
+        width: 75%;
+    }
+}
+
+/* CONTACTO */
+.ct {
+    text-align: center;
+    padding: 5px;
+}
+
+.mapa {
+    width: 100%;
+    height: 150px;
+}
+
+@media only screen and (min-width: 1080px) {
+    .titulocontacto {
+        text-decoration: underline;
+        font-family: 'Creepster', cursive;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 80px;
+
+    }
+
+    .contactop9 {
+        margin-right: 50%;
+        margin-left: 45px;
+    }
+
+    .contendorformulario {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .formulario {
+        width: 40%;
+        padding-top: 78px;
+
+
+    }
+
+    .form-label {
+        font-family: 'Creepster', cursive;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+
+    }
+
+    .mail {
+        height: 58px;
+    }
+
+    .mensaje {
+        height: 188px;
+    }
+
+    .retiro {
+        font-family: 'Creepster', cursive;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 30px;
+        margin-left: 35%;
+
+    }
+
+    .contenidoubi {
+        padding-top: 38px;
+    }
+
+    .mapa {
+        width: 600px;
+        height: 320px;
+        padding-left: 48px;
+        padding-top: 35px;
+    }
+
+    .seguinos {
+        font-family: 'Creepster', cursive;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 30px;
+        margin-bottom: 88px;
+        background-color: black;
+        color: white;
+    }
+
+    .contenidoredes {
+        padding-bottom: 10px;
+
+
+
+    }
+
+    .logoinstagram {
+        width: 50px;
+        overflow: hidden;
+
+
+    }
+
+    .logoinstagram:hover {
+        transform: scale(1.32);
+        transition: 0.5s;
+        background-color: #ffc107;
+        border-radius: 25%;
+
+    }
+
+    .logospoty {
+        width: 50px;
+        overflow: hidden;
+
+    }
+
+    .logospoty:hover {
+        transform: scale(1.32);
+        transition: 0.5s;
+        background-color: #ffc107;
+        border-radius: 25%;
+    }
+
+    .logoface {
+        width: 50px;
+        overflow: hidden;
+
+    }
+
+    .logoface:hover {
+        transform: scale(1.32);
+        transition: 0.5s;
+        background-color: #ffc107;
+        border-radius: 25%;
+    }
+}
